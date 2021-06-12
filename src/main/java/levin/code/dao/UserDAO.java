@@ -10,11 +10,11 @@ import java.util.List;
 
 @Component
 public class UserDAO {
-    private final JdbcTemplate jdbcTemplate;
-    @Autowired
-    public UserDAO(JdbcTemplate jdbcTemplate) {
-        this.jdbcTemplate = jdbcTemplate;
-    }
+//    private final JdbcTemplate jdbcTemplate;
+//    @Autowired
+//    public UserDAO(JdbcTemplate jdbcTemplate) {
+//        this.jdbcTemplate = jdbcTemplate;
+//    }
 
     private static int USERCOUNT;
     private List<User> users;
